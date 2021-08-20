@@ -7,7 +7,7 @@ using System;
 
 namespace CFramework.Network
 {
-    public class NetManager : MonoBehaviour
+    internal sealed partial class NetManager : MonoBehaviour
     {
         //Dictionary<string>
         const string TAG = "NetManager----------->";
